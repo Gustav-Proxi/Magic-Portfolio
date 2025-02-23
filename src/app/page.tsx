@@ -10,7 +10,7 @@ export default function Home() {
       <Column maxWidth="m" gap="l" horizontal="center" style={{ textAlign: 'center' }}>
         <Heading wrap="balance" variant="display-strong-l">
           <TypeAnimation sequence={[
-            'Design Engineer & Builder', 1000, 'AI/ML Developer', 1000, 
+            'A Engineer & A Builder👷‍♂️', 1000, 'AI/ML Developer', 1000, 
             'Data Science Enthusiast', 1000, 'Problem Solver', 1000, 
             'LLM Whisperer 🤫', 1000, 'Neural Net Tamer 🧠', 1000, 
             'Token Sorcerer ✨', 1000, 'Lost in Tensors ☕', 1000
