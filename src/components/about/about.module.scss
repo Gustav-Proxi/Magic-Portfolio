@@ -1,0 +1,41 @@
+.hover {
+    transition: var(--transition-micro-medium);
+
+    &:hover {
+        transform: translateX(var(--static-space-4));
+    }
+}
+
+.avatar {
+    position: sticky;
+    height: fit-content;
+    top: var(--static-space-64);
+}
+
+@media (--s) {
+    .avatar {
+        top: auto;
+    }
+
+    .textAlign {
+        text-align: center;
+    }
+
+    .blockAlign {
+        align-self: center;
+    }
+}
+/* Container for badges */
+.badge-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    gap: 10px; /* Space between badges */
+    margin-bottom: 20px; /* Space below each skill section */
+}
+  
+  /* Individual badge styling */
+.badge {
+    height: 24px; /* Adjust height as needed */
+    margin: 0; /* Remove default margins */
+    vertical-align: middle; /* Align badges properly */
+}

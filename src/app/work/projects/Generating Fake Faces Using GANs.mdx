@@ -1,0 +1,47 @@
+---
+title: "Generating Fake Faces Using GANs"
+publishedAt: "2024-03-01"
+summary: "Exploring the power of Generative Adversarial Networks (GANs) to generate realistic human faces, showcasing the capabilities of deep learning in synthetic image generation."
+images:
+  - "/images/projects/project-05/gan1.jpeg"
+  - "/images/projects/project-05/gan2.jpeg"
+team:
+  - name: "Vaishak G Kumar"
+    role: "AI & Machine Learning Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/vaishakgkumar/"
+link: "https://github.com/Gustav-Proxi/Generating-Fake-Faces-Using-GAN"
+---
+
+## Overview
+
+This project explores the use of **Generative Adversarial Networks (GANs)** to generate realistic fake human faces. GANs are unsupervised generative models that learn from a dataset and create new samples resembling the original distribution. In this project, the GAN consists of two networks: a **Generator** that creates fake images, and a **Discriminator** that evaluates whether an image is real or fake.
+
+The project demonstrates how GANs can be used for synthetic image generation, showcasing their potential in AI-driven media and privacy-preserving applications.
+
+## Key Features
+
+- **GAN Architecture**: A Generator network that produces human face images from random noise and a Discriminator network that evaluates the authenticity of these images.
+- **Data Loading & Visualization**: Loaded and visualized a dataset of real human faces to train the model.
+- **Image Generation**: The trained models generate batches of fake faces that are evaluated against real ones.
+- **Evaluation**: Models were assessed for the quality of the generated images, focusing on aspects like realism and variety in the generated faces.
+- **Noise Mapping**: Used random noise inputs to generate diverse images, showcasing the generative power of the model.
+
+## Technologies Used
+
+- **Python**: For implementing and training the GAN models.
+- **TensorFlow & Keras**: Used for building the deep learning model and training the Generator and Discriminator.
+- **Deep Convolutional GAN (DCGAN)**: For enhanced image quality and resolution.
+- **Matplotlib & Seaborn**: For visualizing training progress and generated images.
+- **Face Image Dataset**: A dataset of real human faces used to train the model.
+
+
+## Challenges and Learnings
+
+One of the primary challenges was ensuring that the training process was stable, as GANs are notoriously difficult to train due to the adversarial nature of the Generator and Discriminator networks. Properly balancing the two models was crucial to achieving high-quality face generation. Additionally, handling the large amounts of image data and computational resources required for training posed challenges, which were solved by using cloud-based GPU instances.
+
+## Outcome
+
+The trained GAN successfully generated highly realistic human faces. The faces produced exhibited varied features and expressions, providing valuable insights into the capabilities of GANs in synthetic data generation. This project demonstrated the effectiveness of GANs in image generation and opened up possibilities for their use in privacy-conscious synthetic media creation.
+
+The model achieved
