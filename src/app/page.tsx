@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Home() {
   return (
     <Flex fillHeight horizontal="center" vertical="center" padding="l">
-      <Column maxWidth="m" gap="l" horizontal="center" textAlign="center">
+      <Column maxWidth="m" gap="l" horizontal="center" style={{ textAlign: 'center' }}>
         <Heading wrap="balance" variant="display-strong-l">
           <TypeAnimation sequence={[
             'Design Engineer & Builder', 1000, 'AI/ML Developer', 1000, 

@@ -80,6 +80,7 @@ export const Header = () => {
                   />
                 </>
               )}
+              {/* Comment out the below part if you neex blog and gallery */}
                 {/* {routes["/blog"] && (
                 <>
                   <ToggleButton
