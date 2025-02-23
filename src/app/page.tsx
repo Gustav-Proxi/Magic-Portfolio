@@ -14,7 +14,7 @@ export default function Home() {
             'Data Science Enthusiast', 1000, 'Problem Solver', 1000, 
             'LLM Whisperer 🤫', 1000, 'Neural Net Tamer 🧠', 1000, 
             'Token Sorcerer ✨', 1000, 'Lost in Tensors ☕', 1000
-          ]} speed={70} cursor={true} repeat={10} />
+          ]} speed={70} cursor={true} repeat={Infinity} />
         </Heading>
         
         <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl" style={{ textAlign: 'center', width: '100%', maxWidth: '800px' }}>
