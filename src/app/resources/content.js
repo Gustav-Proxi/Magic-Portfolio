@@ -219,6 +219,18 @@ const about = {
               src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"
               alt="NumPy"
               className="badge" />
+            <img
+              src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"
+              alt="pandas"
+              className="badge" />
+            <img
+              src="https://img.shields.io/badge/seaborn-%2300BFFF.svg?style=for-the-badge&logo=seaborn&logoColor=white"
+              alt="seaborn"
+              className="badge" />
+            <img
+              src="https://img.shields.io/badge/matplotlib-%23FF5733.svg?style=for-the-badge&logo=matplotlib&logoColor=white"
+              alt="matplotlib"
+              className="badge" />
           </div>
         ),
       },
