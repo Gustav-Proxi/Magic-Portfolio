@@ -231,6 +231,7 @@ const about = {
               src="https://img.shields.io/badge/matplotlib-%23FF5733.svg?style=for-the-badge&logo=matplotlib&logoColor=white"
               alt="matplotlib"
               className="badge" />
+            
           </div>
         ),
       },
@@ -272,6 +273,14 @@ const about = {
             <img
               src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
               alt="Kubernetes"
+              className="badge" />
+            <img
+              src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
+              alt="Docker"
+              className="badge" />
+            <img
+              src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white"
+              alt="Jupyter"
               className="badge" />
           </div>
         ),
