@@ -10,7 +10,7 @@ const person = {
   role: "AI/ML Engineer, LLM Enthusiast",
   avatar: "/images/avatarog.jpg",
   location: "Asia/Bengaluru", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Hindi","Kannada"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "Hindi","Kannada","Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
